@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.ContentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.detail_news"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/detail_news_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:menu="@menu/toolbar1">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="?attr/actionBarSize"
+    android:background="@color/bg"
+    >
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    >
+    <!--<include-->
+        <!--android:id="@+id/toolbar_detail_news"-->
+        <!--layout="@layout/toolbar_layout1"-->
+        <!--&gt;-->
+    <!--</include>-->
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="news title"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        style="?attr/textAppearanceHeadline5"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_detail_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layout_notop"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/desc_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="description of news"
+        android:textColor="@color/colorPrimaryDark"
+        style="?attr/textAppearanceBody1"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        />
+        <LinearLayout
+            android:id="@+id/action_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_loc"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/colorAccent1"
+                android:text="See Location On Map" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_donate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/donate"
+                android:backgroundTint="@color/colorAccent1"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                 />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_detail_keb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="POS"
+                android:backgroundTint="@color/colorAccent1"
+                style="@style/Widget.MaterialComponents.Button.Icon"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</androidx.appcompat.widget.ContentFrameLayout>

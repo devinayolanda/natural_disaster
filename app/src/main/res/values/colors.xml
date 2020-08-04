@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#353535</color>
+    <color name="colorAccent">#26A9E1</color>
+    <color name="colorAccent1">#0003ab</color>
+
+    <color name="bg">#cdf0ef</color>
+    <color name="black">#000000</color>
+    <color name="colorDark">#000000</color>
+    <color name="borderColor">#707070</color>
+    <color name="signUp">#3F51B5</color>
+    <color name="pickingup">#26A9E1</color>
+    <color name="delivering">#f3f556</color>
+    <color name="delivered">#5de35d</color>
+</resources>

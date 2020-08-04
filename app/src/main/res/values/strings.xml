@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Xcross help</string>
+    <!--satuan barang di donasi barang-->
+    <string-array name="satuan_barang">
+        <item>Liter</item>
+        <item>Kg</item>
+        <item>Pcs</item>
+
+    </string-array>
+    <!--action bar-->
+    <string name="action_notif">Notification</string>
+    <string name="action_share">Share</string>
+    <string name="action_settings">Settings</string>
+
+    <!--title action bar-->
+    <string name="title_news">NEWS</string>
+    <string name="title_maps">MAP</string>
+    <string name="title_donation">"DONATION"</string>
+    <string name="title_pos">POSKO</string>
+    <string name="title_needs">NEEDS</string>
+    <string name="title_history">HISTORY</string>
+    <string name="title_profile">PROFILE</string>
+
+    <!--title bottom nav-->
+    <string name="news">News</string>
+    <string name="donation">Donation</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+
+    <!--sign in and sign up-->
+    <string name="sign_in">Sign In</string>
+    <string name="dont_have_account">Don\'t have account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="username_hint">Username</string>
+    <string name="name_hint">Name</string>
+    <string name="address_hint">Address</string>
+    <string name="telephone_hint">Telephone</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="cpassword_hint">Confirmation Password</string>
+    <string name="log_in_google">Log in With Google</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--news-->
+    <string name="search">Search</string>
+    <string name="location">Location</string>
+    <string name="donate">Donate</string>
+    <string name="detail_pos">Pos</string>
+    <string name="detail_needs">Needs</string>
+
+    <!--donasi barang-->
+    <string name="estimation">Estimation Date</string>
+
+    <!--donasi uang-->
+    <string name="ammount">Ammount</string>
+
+    <!--donation box-->
+    <string name="donation_box">DONATION BOX</string>
+
+    <!--etc-->
+    <string name="back">Back</string>
+    <string name="setting">Setting</string>
+    <string name="expand">more</string>
+    <string name="less">less</string>
+    <string name="please_check_your_internet_connection">Please check your internet connection</string>
+    <string name="title_activity_list_history_adapter">ListHistoryAdapter</string>
+    <string name="pickup">Pickup Address</string>
+    <string name="error_search">No Result</string>
+</resources>
